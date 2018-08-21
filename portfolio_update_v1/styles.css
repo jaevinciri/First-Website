@@ -69,9 +69,9 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 55%;
+  border: 3px solid lightgrey;
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -205,4 +205,8 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+.experience {
+  text-align: left;
 }
